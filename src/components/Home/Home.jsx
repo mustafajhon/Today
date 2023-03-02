@@ -6,10 +6,8 @@ function Home() {
         <div className="home-header">
           <h1>Home Page</h1>
         </div>
-        <h1>I have no idea what to code.</h1>
-        <div className="code">
-          <h4>hello</h4>
-        </div>
+
+        <div className="code"></div>
       </div>
     </>
   );

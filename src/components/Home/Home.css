@@ -18,11 +18,17 @@
 }
 
 .code {
-  background-color: aquamarine;
-  width: 200px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(38, 51, 45, 1) 37%,
+    rgba(148, 187, 233, 1) 100%
+  );
 
+  width: 300px;
   margin: 4px auto;
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
   color: black;
 }
